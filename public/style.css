@@ -142,3 +142,10 @@ p,
 .errado {
   color: #ff0000;
 }
+
+.desativo {
+  visibility: hidden;
+}
+.ativo {
+  visibility: visible;
+}

@@ -16,7 +16,9 @@ function App() {
           </div>
         </div>
         <div className="teclado">
-          <button className="tecla">A</button>
+          <button className="tecla selecionado" disabled="disabled">
+            A
+          </button>
           <button className="tecla">B</button>
           <button className="tecla">C</button>
           <button className="tecla">D</button>

@@ -3,7 +3,7 @@
 font-family: 'Roboto', sans-serif;*/
 
 body {
-  background-color: rgb(148, 255, 155);
+  background-color: rgb(158, 175, 250);
   font-family: "Roboto", sans-serif;
 }
 .containerGame {
@@ -85,6 +85,11 @@ body {
   border-radius: 3px;
 
   margin-right: 11px;
+}
+
+.selecionado {
+  color: #7aa7c7;
+  background-color: #9faab5;
 }
 
 .containerResposta {

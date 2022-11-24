@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto:wght@400;700&display=swap");
+/*font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+body {
+  background-color: cadetblue;
+  font-family: "Roboto", sans-serif;
+}
+
+.imagemForca {
+  width: 400px;
+}
+.botaoEscolher {
+  height: 60px;
+  width: 200px;
+  background-color: #27ae60;
+  color: white;
+  border-radius: 8px;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}

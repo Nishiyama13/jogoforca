@@ -2,8 +2,8 @@ import { useState } from "react";
 export default function Jogo(props) {
   const [foto, setFoto] = useState("/assets/forca0.png");
   const [status, setStatus] = useState("ativo");
-
   const palavraEscolhida = "puxadalista";
+
   return (
     <>
       <div className="containerGame">

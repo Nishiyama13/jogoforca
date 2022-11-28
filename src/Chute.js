@@ -2,7 +2,8 @@ import { useState } from "react";
 
 export default function Chute(props) {
   const [chute, setChute] = useState([]);
-  function testarChute() {
+  function conferirChute() {
+    //ao começar a escrever no place holder o botão tem que ficar valido
     //logica de comparacao
     setChute("");
   }
@@ -23,7 +24,8 @@ export default function Chute(props) {
         <button
           className="botaoChute"
           data-test="guess-button"
-          onClick={() => testarChute()}
+          disabled="disabled"
+          onClick={() => conferirChute()}
         >
           Chutar!
         </button>

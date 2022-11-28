@@ -1,4 +1,4 @@
-export default function Letras(props) {
+export default function Letras() {
   const alfabeto = [
     "a",
     "b",
@@ -27,16 +27,19 @@ export default function Letras(props) {
     "y",
     "z",
   ];
+
   return (
     <>
       <div className="teclado">
-        <button
-          data-test="letter"
-          className="tecla selecionado"
-          disabled="disabled"
-        >
-          {alfabeto[0]}
-        </button>
+        {alfabeto.map(l => (
+          <button
+            data-test="letter"
+            className="tecla selecionado"
+            disabled="disabled"
+          >
+            {l}
+          </button>
+        ))}
       </div>
     </>
   );

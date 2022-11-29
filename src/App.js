@@ -17,7 +17,7 @@ export default function App() {
   const [letraAtiva, setLetraAtiva] = ""; //Letra sendo testada
   const [divPalavraOculta, setDivPalavraOculta] = useState([]); //container do Jogo com palavra em _
   const [palavraAleatoria, setPalavraAleatoria] = useState(""); //armazena a palavra aleatória designada
-  //const [chute, setChute] = useState(""); //chute começa vazio  //usa tb em Chute.js
+  const [chute, setChute] = useState(""); //chute começa vazio  //usa tb em Chute.js
   const [listaPalavrasAleatorias, setListaPalavrasAleatorias] = useState([]);
   const [listaLetrasAcertos, setListaLetrasAcertos] = useState([]); //letras corretas inseridas
 
@@ -31,7 +31,7 @@ export default function App() {
 
   //Chute.js
   //const [palavraCerta, setPalavraCerta] = useState("") //Array com uma letra em cada espaco (usa tb em letras e chute)
-  const [chute, setChute] = useState([]); //chute começa vazio //usa tb em Jogo.js
+  //const [chute, setChute] = useState([]); //chute começa vazio //usa tb em Jogo.js
   //const [palavraEscolhida, setPalavraEscolhida] = useState(""); //palavra escolhida aleatoriamente na lista de palavras (usa mas ta em jogo)
   //const [divPalavraOculta, setDivPalavraOculta] = useState("");  //container do Jogo com palavra em _ (usa em cima jogo)
   const [textoInput, setTextoInput] = useState("");

@@ -40,11 +40,13 @@ export default function Letras({
     alert(`comparar Letra selecionada`);
     const arrayResposta = palavraCerta.join("");
     const letraCerta = arrayResposta.includes(l.value);
-
+    console.log(arrayResposta);
+    console.log(letraCerta);
     if (letraCerta) {
       l.style.color = "green";
     } else {
       setContadorErro = contadorErro + 1;
+      console.log(contadorErro + 1);
     }
   }
   return (

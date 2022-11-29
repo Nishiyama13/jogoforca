@@ -1,5 +1,12 @@
 import { useState } from "react";
 import palavras from "./Palavras";
+import forca0 from "../assets/forca0.png";
+import forca0 from "../assets/forca1.png";
+import forca0 from "../assets/forca2.png";
+import forca0 from "../assets/forca3.png";
+import forca0 from "../assets/forca4.png";
+import forca0 from "../assets/forca5.png";
+import forca0 from "../assets/forca6.png";
 
 export default function Jogo({
   listaPalavrasAleatorias,
@@ -24,8 +31,8 @@ export default function Jogo({
     setListaPalavrasAleatorias = palavras.sort(comparador);
     setPalavraCerta(listaPalavrasAleatorias[0]);
     setArrayPalavraCerta(palavraCerta.split("")); //transforma a String em Array //depois .join('') transforma array em string sem espaco
-    console.log(palavraCerta);
-    console.log(arrayPalavraCerta);
+    console.log(`palavraCerta:${palavraCerta}`);
+    console.log(`arrayPalavraCerta:${arrayPalavraCerta}`);
   }
 
   function iniciarJogo() {
